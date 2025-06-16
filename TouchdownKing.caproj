@@ -1,0 +1,1439 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TouchdownKing</name>
+    <description>Be the best touchdowner in the world.</description>
+    <version>4</version>
+    <author>www.uncertainstudio.com</author>
+    <author-email>contact@uncertainstudio.com</author-email>
+    <author-website>www.uncertainstudio.com</author-website>
+    <app-id>com.uncertainstudio.com</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_TimeLine" version="1">TimeLine</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_UID2Prop" version="0.100000001">UID to Properties</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="R0J0hound" id="c2canvas" version="2">Canvas</plugin>
+        <plugin author="Rex.Rainbow" id="rex_TouchWrap" version="0.100000001">Touch wrap</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_Cooldown" version="1">Cooldown</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_DragDrop2" version="1">Drag &amp; Drop2</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_MoveTo" version="1">MoveTo</behavior>
+        <behavior author="Rex.Rainbow" id="Rex_RotateTo" version="0.100000001">RotateTo</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+        <behavior author="Yeremia AI (lunarray)" id="lunarray_Tween" version="1.600000024">EaseTween</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>360</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>1</pixel-rounding>
+    <preview-effects>0</preview-effects>
+    <first-layout>LoaderLayout</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">No</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Scale outer</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Nothing (not recommended)</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="LocalStorage" sid="5482671672945637">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="Function" sid="9279909231906573">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Touch" sid="9463278514141665">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Audio" sid="8805095228941809">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="SpriteFont" sid="4644106724375904">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="OwnText" sid="279889058010974" type="string" />
+                <instance-variable name="badges" sid="236320223852664" type="boolean" />
+                <instance-variable name="tackles" sid="980571502058098" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="2395541728629492">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="919980524275161">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Anchor" sid="609607779828953">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\SpriteFont_ConcertOne_Regular_(56)_[0,0,0,0]_48x56.png" />
+        </object-type>
+        <object-type global="1" name="SpriteFontImporter" sid="1143055227504061">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="mainlogo" sid="616067102345665">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="4028745537458295">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="position" sid="350841247607843">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1503766160747201" speed="5">
+                    <frame duration="1" hotspotX="0.493103" hotspotY="0.3875" original-source="C:\Users\tobia\Desktop\13.02.16\minigames\FootballDribble\logo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="loadingbar" sid="7472505680562393">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="HUD_share_twitter" sid="4719877467796548">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="isSilent" sid="4896511071584119" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3084153462795219" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.518519" original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Scoreboard\twitter.png">
+                        <collision-poly>
+                            <point x="0.185185" y="0.185185" />
+                            <point x="0.5" y="0.0185185" />
+                            <point x="0.814815" y="0.185185" />
+                            <point x="0.87037" y="0.5" />
+                            <point x="0.722222" y="0.722222" />
+                            <point x="0.5" y="0.796296" />
+                            <point x="0.277778" y="0.722222" />
+                            <point x="0.12963" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_share_facebook" sid="9488086994454969">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="isSilent" sid="5855470063763255" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5352752367590711" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.481481" original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Scoreboard\facebook.png">
+                        <collision-poly>
+                            <point x="0.185185" y="0.185185" />
+                            <point x="0.5" y="0.0185185" />
+                            <point x="0.814815" y="0.185185" />
+                            <point x="0.87037" y="0.5" />
+                            <point x="0.722222" y="0.722222" />
+                            <point x="0.5" y="0.796296" />
+                            <point x="0.277778" y="0.722222" />
+                            <point x="0.12963" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gameover_back" sid="8083833213386701">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="9309776518233901">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\tobia\Desktop\minigames\Smoother\smoother.png" />
+        </object-type>
+        <object-type name="HUD_silent" sid="9365704304059997">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="isSilent" sid="3375747080129998" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4218102731401482" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.503185" original-source="C:\Users\tobia\Documents\breath\images16_08_18\hud_silent-sheet0.png">
+                        <collision-poly>
+                            <point x="0.140127" y="0.178344" />
+                            <point x="0.503185" y="0.0191083" />
+                            <point x="0.866242" y="0.178344" />
+                            <point x="0.987261" y="0.496815" />
+                            <point x="0.866242" y="0.821656" />
+                            <point x="0.503185" y="0.987261" />
+                            <point x="0.133758" y="0.828025" />
+                            <point x="0.0191083" y="0.496815" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="muted" pingpong="0" repeatcount="1" repeatto="0" sid="10759436614364" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.503226" original-source="C:\Users\tobia\Documents\breath\images16_08_18\hud_silent-sheet1.png">
+                        <collision-poly>
+                            <point x="0.141936" y="0.167742" />
+                            <point x="0.496774" y="0.0129032" />
+                            <point x="0.858065" y="0.161291" />
+                            <point x="0.993548" y="0.496774" />
+                            <point x="0.858065" y="0.838709" />
+                            <point x="0.496774" y="0.993548" />
+                            <point x="0.135484" y="0.838709" />
+                            <point x="0.0129032" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreItem" sid="5407019139818311">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="GotThisEgg" sid="7391472872678679" type="boolean" />
+                <instance-variable name="BelongsToLevelSelector" sid="8657451134673511" type="number" />
+                <instance-variable name="GotScoreLevelSelector" sid="9372179622592117" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="5201670684657677">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="GotScoreItem" sid="4510708108558608">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="LevelSelector" sid="7139677134694367">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364970013316242" speed="5">
+                    <frame duration="1" hotspotX="1" hotspotY="1" original-source="C:\Users\tobia\Desktop\minigames\flyingchicken\flyingchicken.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_menu" sid="2799371489936367">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="4281864766743549">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1116870590121278" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\tobia\Desktop\13.02.16\minigames\FootballDribble\logo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_restart" sid="2374216603531347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267950315756769" speed="5">
+                    <frame duration="1" hotspotX="0.503226" hotspotY="0.503226" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\restart.png">
+                        <collision-poly>
+                            <point x="0.149351" y="0.149351" />
+                            <point x="0.5" y="0.00649351" />
+                            <point x="0.850649" y="0.149351" />
+                            <point x="0.993506" y="0.5" />
+                            <point x="0.850649" y="0.850649" />
+                            <point x="0.5" y="0.993506" />
+                            <point x="0.149351" y="0.850649" />
+                            <point x="0.00649351" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="1088359511729815">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="SpriteFont2" sid="5468721392657659">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="BelongsToLevel" sid="8162270972277497" type="number" />
+                <instance-variable name="ExtraPoints" sid="9793111863180556" type="boolean" />
+                <instance-variable name="savegame" sid="7889999541339696" type="number" />
+                <instance-variable name="GameOverMessage" sid="3268609188667093" type="boolean" />
+                <instance-variable name="AtRound" sid="2995628308108645" type="number" />
+                <instance-variable name="Team" sid="2232619090819654" type="string" />
+                <instance-variable name="CoinsPoints" sid="792003508644952" type="boolean" />
+                <instance-variable name="MessageText" sid="374828995171212" type="boolean" />
+                <instance-variable name="OwnText" sid="509531510399660" type="string" />
+                <instance-variable name="Timer" sid="681150422152880" type="boolean" />
+                <instance-variable name="Goal" sid="787993358585744" type="boolean" />
+                <instance-variable name="AvoidedTackles" sid="621656673267961" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="7545241245774752">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="3732995017494324">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="gameoverposition" sid="1359681898110381">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="9620485978471268">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Anchor" sid="4851349340549066">
+                    <behavior id="Anchor" />
+                </behavior-type>
+                <behavior-type name="EaseTween" sid="469433061097762">
+                    <behavior id="lunarray_Tween" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="Z:\home\awake\Dokumente\dribble\bold\SpriteFont_StRyde_Bold_(36)_[0,0,0,0]_37x42.png" />
+        </object-type>
+        <object-type name="enemy" sid="6906430316277616">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Overlapped" sid="7682977115368738" type="number" />
+                <instance-variable name="extrapoints" sid="3542423634601855" type="number" />
+                <instance-variable name="aggrotime" sid="8626842343212021" type="number" />
+                <instance-variable name="MaxSpeed" sid="5739152275393825" type="number" />
+                <instance-variable name="KI_type" sid="8096698088307335" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="9495520160864977">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="7497796642322986">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="3782722632571909">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="907599288504368">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Cooldown" sid="7782405158085939">
+                    <behavior id="Rex_Cooldown" />
+                </behavior-type>
+                <behavior-type name="FlyAway" sid="398544307262436">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="8431322831061108" speed="16">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tobia\Desktop\minigames\Football\player.png">
+                        <image-point name="Imagepoint 1" x="-1" y="-0.5" />
+                        <image-point name="Imagepoint 2" x="-1" y="0" />
+                        <image-point name="Imagepoint 3" x="-1" y="0" />
+                        <image-point name="Imagepoint 4" x="-1.5" y="0" />
+                        <image-point name="Imagepoint 5" x="-13.5" y="0" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="attack" pingpong="0" repeatcount="1" repeatto="0" sid="2256753317831472" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="0.0625" />
+                            <point x="0.332031" y="0.065" />
+                            <point x="0.515625" y="0.5" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.9" y="0.820313" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="player" sid="6512463984451258">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ReadyToShoot" sid="4971211413337601" type="boolean" />
+                <instance-variable name="OnTargetId" sid="3691448755335979" type="number" />
+                <instance-variable name="isHolding" sid="757742476385685" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="5498123253982472">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="6938599434185187">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="MoveTo" sid="592162002379809">
+                    <behavior id="Rex_MoveTo" />
+                </behavior-type>
+                <behavior-type name="RotateTo" sid="306805341428186">
+                    <behavior id="Rex_RotateTo" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="2575468553261303" speed="18">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tobia\Desktop\minigames\Football\player.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.5" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_grass" sid="4739845887685927">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Pin" sid="1257827875377796">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Background\tiledbackground.png" />
+        </object-type>
+        <object-type name="camera" sid="538960144631359">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="4369168735181851">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="4317477486993969">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="6023243845368045">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DragDrop2" sid="4240026417083434">
+                    <behavior id="Rex_DragDrop2" />
+                </behavior-type>
+                <behavior-type name="LiteTween" sid="8203185377412753">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8454134168485668" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont3" sid="552602249078626">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="team" sid="6072870376617509" type="string" />
+            </instance-variables>
+            <texture original-source="C:\Users\tobia\Desktop\minigames\Football\SpriteFont_AllerDisplay_Regular_(22)_[0,0,0]_26x28.png" />
+        </object-type>
+        <object-type name="speedpowerbar" sid="136405681988636">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="8297508488445851">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7484847602257679" speed="5">
+                    <frame duration="1" hotspotX="0.00578035" hotspotY="0.485714" original-source="C:\Users\tobia\Desktop\minigames\Smoother\smoother.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0.988439" y="0.228571" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="5605674615321488">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type global="1" name="SpriteFontImporter2" sid="356840611065877">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="tut_hand" sid="1867998229864853">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="943422601501314">
+                    <behavior id="Flash" />
+                </behavior-type>
+                <behavior-type name="LiteTween" sid="5224192985809991">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="2151073434476083">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9632952821518038" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="-0.340909" original-source="C:\Users\tobia\Documents\breath\images16_08_18\tut_hand-sheet0.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="146910507185917">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\tobia\Documents\breath\speeddribbling\images\tiledbackground2.png" />
+        </object-type>
+        <object-type name="TouchWrap" sid="4830270858761979">
+            <plugin id="rex_TouchWrap" />
+        </object-type>
+        <object-type name="Goal" sid="3448285065627903">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4346018629043468">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>goal_check</type>
+                <type>Goal</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872938260343175" speed="5">
+                    <frame duration="1" hotspotX="0.52439" hotspotY="0.820225" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_goal.png">
+                        <image-point name="Imagepoint 1" x="-0.273171" y="1.44382" />
+                        <image-point name="Imagepoint 2" x="1.01707" y="1.44382" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ball" sid="9857633405993748">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="8029312422342569">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="getbigger" sid="252787884853419">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4420079383190507" speed="8">
+                    <frame duration="1" hotspotX="0.389313" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\images\touchdown_player2-[Recovered]_49.png">
+                        <collision-poly>
+                            <point x="0" y="0.513097" />
+                            <point x="0.270702" y="0.083353" />
+                            <point x="0.994253" y="0" />
+                            <point x="0.994253" y="0.092305" />
+                            <point x="0.994253" y="0.513097" />
+                            <point x="0.994253" y="0.924936" />
+                            <point x="0.994253" y="1" />
+                            <point x="0.270702" y="0.933888" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="7038648471018171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6649333418102308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="line" sid="2311981202701395">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Pitch markings\line.png" />
+        </object-type>
+        <object-type name="solidpost" sid="8896275309620324">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9379171235331585">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="touchdown" sid="6779037603748542">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="1389300248030188">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="10" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="2709225704246237" speed="22">
+                    <frame duration="2" hotspotX="0.503012" hotspotY="0.481481" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\touchdown.png">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="4" hotspotX="0.503012" hotspotY="0.481481">
+                        <collision-poly>
+                            <point x="0.0271084" y="0.481481" />
+                            <point x="0.503012" y="0.037037" />
+                            <point x="0.993976" y="0.388889" />
+                            <point x="0.993976" y="0.574074" />
+                            <point x="0.503012" y="0.962963" />
+                            <point x="0.0271084" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="out_back" sid="1084829317615281">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="GoIn" sid="8471875125464979">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="GoOut" sid="5076405205756105">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="point" sid="7367291173583103">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8940092519555288" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="goal_check" sid="4084816874953856">
+            <plugin id="TiledBg" />
+            <container>
+                <type>goal_check</type>
+                <type>Goal</type>
+            </container>
+            <texture />
+        </object-type>
+        <object-type name="player_animation" sid="6962870834939985">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="PlayerTeam" sid="3515952123937289" type="boolean" />
+                <instance-variable name="BelongsTo" sid="1709325138459085" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="3442249679300728">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="NED" pingpong="1" repeatcount="1" repeatto="0" sid="8622703608486107" speed="20">
+                    <frame duration="2" hotspotX="0.497436" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_03.png">
+                        <image-point name="Imagepoint 1" x="0.794872" y="0.706897" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497076" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_06.png">
+                        <image-point name="Imagepoint 1" x="0.900585" y="0.668605" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.496894" hotspotY="0.502857" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_09.png">
+                        <image-point name="Imagepoint 1" x="0.900621" y="0.622857" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.493827" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_12.png">
+                        <image-point name="Imagepoint 1" x="0.950617" y="0.646341" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497076" hotspotY="0.503106" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_22.png">
+                        <image-point name="Imagepoint 1" x="0.947368" y="0.559006" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.494624" hotspotY="0.503268" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_19.png">
+                        <image-point name="Imagepoint 1" x="0.935484" y="0.457516" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="1" name="ENG" pingpong="1" repeatcount="1" repeatto="0" sid="1170691741172881" speed="20">
+                    <frame duration="2" hotspotX="0.497436" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_27.png" />
+                    <frame duration="1" hotspotX="0.497076" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_30.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.496894" hotspotY="0.502857" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_33.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_36.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497076" hotspotY="0.503106" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_46.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.497326" hotspotY="0.503268" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player_43.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="ENGattack" pingpong="0" repeatcount="1" repeatto="0" sid="7925892617575933" speed="5">
+                    <frame duration="1" hotspotX="0.478723" hotspotY="0.441989" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player2_51.png">
+                        <image-point name="Imagepoint 1" x="0.634752" y="0.939227" />
+                        <collision-poly>
+                            <point x="0.861702" y="0.21547" />
+                            <point x="0.932624" y="0.596685" />
+                            <point x="0.925532" y="0.839779" />
+                            <point x="0.510638" y="0.933702" />
+                            <point x="0.283688" y="0.674033" />
+                            <point x="0.117021" y="0.596685" />
+                            <point x="0.14539" y="0.226519" />
+                            <point x="0.5" y="0.0497238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="ENGfall" pingpong="0" repeatcount="1" repeatto="0" sid="555225122394138" speed="5">
+                    <frame duration="1" hotspotX="0.513889" hotspotY="0.552448" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\touchdown_player2_54.png">
+                        <image-point name="Imagepoint 1" x="0.763889" y="0.545455" />
+                        <collision-poly>
+                            <point x="1" y="0.692308" />
+                            <point x="1" y="1" />
+                            <point x="0.810185" y="0.783217" />
+                            <point x="0.361111" y="0.846154" />
+                            <point x="0.0509259" y="0.692308" />
+                            <point x="0.185185" y="0.27972" />
+                            <point x="0.810185" y="0.013986" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground5" sid="6410785346827039">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="Game" sid="5830036299968419" type="number" />
+                <instance-variable name="Team" sid="2597429820007119" type="number" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground6" sid="2902454780479613">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type global="1" name="Teams" sid="5608908254404972">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="GamePlan" sid="7159892783628081">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="TiledBackground7" sid="4829677037136135">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="isOrientationBack" sid="344196810062525" type="boolean" />
+            </instance-variables>
+            <texture original-source="C:\Users\tobia\Documents\breath\images16_08_18\sprite3-sheet0_bg.jpg" />
+        </object-type>
+        <object-type name="Sprite9" sid="7540286332796872">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="4419292673093932">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7359889413189949" speed="5">
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.478873" original-source="C:\Users\tobia\Desktop\minigames\Football\tourney.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="GameResults" sid="9365746440638398">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="GamePlanRound2" sid="9107539185416848">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="VariousData" sid="2655426419979541">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="Final" sid="4152983930910596">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="konfetti" sid="1188061289306612">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="startx" sid="337731566954033" type="number" />
+                <instance-variable name="starty" sid="632709011514308" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="203098290541035">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="LiteTween2" sid="1955990762581769">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="6298679857229562">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4966825527185514" speed="8">
+                    <frame duration="1" hotspotX="0.484211" hotspotY="0.422917" original-source="C:\Users\tobia\Documents\breath\images16_08_18\konfetti-sheet0.png" />
+                    <frame duration="1" hotspotX="0.483986" hotspotY="0.422505" original-source="C:\Users\tobia\Documents\breath\images16_08_18\konfetti-sheet1.png" />
+                    <frame duration="1" hotspotX="0.483986" hotspotY="0.422175" original-source="C:\Users\tobia\Documents\breath\images16_08_18\konfetti-sheet2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="please_rotate" sid="7473641891880661">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9112332656869988" speed="5">
+                    <frame duration="1" hotspotX="0.511364" hotspotY="0.503106" original-source="C:\Users\tobia\Documents\breath\Game2_Rotate_Elements\MON4200_Game2_Rotate_Device.png">
+                        <collision-poly>
+                            <point x="0" y="0.26832" />
+                            <point x="0.476838" y="0" />
+                            <point x="1" y="0.130428" />
+                            <point x="1" y="0.571681" />
+                            <point x="1" y="0.875042" />
+                            <point x="0" y="0.875042" />
+                            <point x="0" y="0.571681" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ChangeOrientationWarning" sid="3787788015082713">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\tobia\Desktop\minigames\Football\rotate_back.png" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="2648520138951603">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="line2" sid="523524638099173">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Pitch markings\line.png" />
+        </object-type>
+        <object-type name="line3" sid="2583855051173258">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="line4" sid="1760756296762317">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Pitch markings\line.png" />
+        </object-type>
+        <object-type name="outzone" sid="1300389336489806">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Pitch markings\line.png" />
+        </object-type>
+        <object-type name="TiledBackground8" sid="7672425278612819">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\tobia\Desktop\minigames\Football\startscreen.png" />
+        </object-type>
+        <object-type name="TiledBackground9" sid="1507103257184323">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type global="1" name="TimeLine" sid="7144250782907993">
+            <plugin id="Rex_TimeLine" />
+        </object-type>
+        <object-type name="Text" sid="2470177640777456">
+            <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="TeamCups" sid="9194761302433155">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="TiledBackground10" sid="914101761762542">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="coin" sid="358615072332007">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="214363002273384">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="EaseTween" sid="524018115736974">
+                    <behavior id="lunarray_Tween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449371594867632" speed="12">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.503817" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\orange_ring.png">
+                        <collision-poly>
+                            <point x="0.425121" y="0.0305344" />
+                            <point x="1" y="0.160305" />
+                            <point x="1" y="0.938931" />
+                            <point x="0.130435" y="0.938931" />
+                            <point x="0" y="0.48855" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_resume" sid="356595012328521">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472569373482148" speed="5">
+                    <frame duration="1" hotspotX="0.503226" hotspotY="0.503226" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\play.png">
+                        <image-point name="Imagepoint 1" x="0.393548" y="1.14194" />
+                        <collision-poly>
+                            <point x="0.154839" y="0.154839" />
+                            <point x="0.496774" y="0.0129032" />
+                            <point x="0.845161" y="0.154839" />
+                            <point x="0.987097" y="0.496774" />
+                            <point x="0.845161" y="0.845161" />
+                            <point x="0.496774" y="0.993548" />
+                            <point x="0.148387" y="0.851613" />
+                            <point x="0.00645161" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_Coins" sid="295899184484586">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="421597285514264">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896577388262473" speed="10">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.435115" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\winner_ring.png">
+                        <collision-poly>
+                            <point x="0.14686" y="0" />
+                            <point x="0.502415" y="0" />
+                            <point x="0.84686" y="0" />
+                            <point x="0.94686" y="0.435115" />
+                            <point x="0.791304" y="0.832061" />
+                            <point x="0.502415" y="1" />
+                            <point x="0.202415" y="0.847328" />
+                            <point x="0.0246377" y="0.435115" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="UIDToProperties" sid="488757327049594">
+            <plugin id="Rex_UID2Prop" />
+        </object-type>
+        <object-type name="grass_effect" sid="700535899201953">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="323013804230731">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629074621075244" speed="5">
+                    <frame duration="1" hotspotX="0.502703" hotspotY="0.5" original-source="C:\Users\tobia\Desktop\13.02.16\minigames\FootballDribble\player.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.453947" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.453947" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505682" hotspotY="0.632353">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.375" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.375" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.511765" hotspotY="0.75">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.360294" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.360294" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Canvas" sid="108617542997030">
+            <plugin id="c2canvas" />
+            <instance-variables>
+                <instance-variable name="nr" sid="921024247007609" type="number" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="hud_tackles" sid="122676207209618">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="825928772376882">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443163331971191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Z:\home\awake\Dokumente\dribble\Game 2 - PSDs\Scoreboard\tackles.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_home" sid="807253989505875">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916556600127302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512195" original-source="Z:\home\awake\Dokumente\dribble\Game 2 - PSDs\Scoreboard\home.png">
+                        <collision-poly>
+                            <point x="0.205714" y="0.20339" />
+                            <point x="0.497143" y="0.0451977" />
+                            <point x="0.84" y="0.158192" />
+                            <point x="0.977143" y="0.497175" />
+                            <point x="0.811429" y="0.813559" />
+                            <point x="0.497143" y="0.903955" />
+                            <point x="0.228571" y="0.774011" />
+                            <point x="0.108571" y="0.497175" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_silent2" sid="120275887423182">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="isSilent" sid="302845423549161" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141100357633935" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Icons\hud_silent-sheet0.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.489362" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.485714" />
+                            <point x="1" y="1" />
+                            <point x="0.489362" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="muted" pingpong="0" repeatcount="1" repeatto="0" sid="848772225982596" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="C:\users\awake\Desktop\Dokumente\dribble\Game 2 - PSDs\Icons\hud_silent-sheet1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.489362" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.471264" />
+                            <point x="1" y="1" />
+                            <point x="0.489362" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.471264" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="679728686575033">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="cursor" sid="217819134021165">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737558355410016" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.0639535" original-source="Z:\home\awake\Dokumente\dribble\new graphics\tut_hand-sheet0.png">
+                        <collision-poly>
+                            <point x="0.288462" y="0.174419" />
+                            <point x="0.5" y="0.0232558" />
+                            <point x="0.701923" y="0.180233" />
+                            <point x="0.682692" y="0.5" />
+                            <point x="0.682692" y="0.80814" />
+                            <point x="0.5" y="0.976744" />
+                            <point x="0.317308" y="0.80814" />
+                            <point x="0.317308" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="776470326669238">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365352924353673" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hud_gameover" sid="480513505096499">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="991444903456914">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="457545931984735">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884683113346170" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\tobia\Documents\Work\2018 Games\TouchDownKing\WORKING\images\Untitled-4.png">
+                        <collision-poly>
+                            <point x="0.00619195" y="0.00966184" />
+                            <point x="0.993808" y="0.00966184" />
+                            <point x="0.99226" y="0.987923" />
+                            <point x="0.00773994" y="0.987923" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="460983017624111">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211488428312988" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tobia\Documents\breath\speeddribbling\images\tiledbackground7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="127451874061527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340586922025139" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\tobia\Documents\breath\newdribbleassets\MON4200_10i_Xmas_Game2_COMPLETE_1360x640.png">
+                        <collision-poly>
+                            <point x="0.00283286" y="0.136646" />
+                            <point x="1" y="0.00621118" />
+                            <point x="1" y="0.884058" />
+                            <point x="1" y="0.122153" />
+                            <point x="1" y="1" />
+                            <point x="0.00283286" y="0.869565" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shoulder_hitbox" sid="213423841540263">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="660547994432174">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935687598666043" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="helmet" sid="852377790247573">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="169496773108921">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="792249169645391">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="getbigger" sid="924959275377068">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520175899487790" speed="5">
+                    <frame duration="1" hotspotX="0.461538" hotspotY="0.519231">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="hud_icons" plugin-id="Sprite" sid="6782273389678001">
+            <members>
+                <member>HUD_home</member>
+                <member>HUD_menu</member>
+                <member>HUD_restart</member>
+                <member>HUD_resume</member>
+                <member>HUD_share_facebook</member>
+                <member>HUD_share_twitter</member>
+                <member>HUD_silent</member>
+                <member>HUD_silent2</member>
+                <member>mainlogo</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="StartX" sid="2209027367684828" type="number" />
+                <instance-variable name="StartY" sid="2863587719972721" type="number" />
+                <instance-variable name="logo" sid="6445388863853692" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween2" sid="962357896569414">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="goalfam" plugin-id="Sprite" sid="5096933522534799">
+            <members>
+                <member>touchdown</member>
+            </members>
+            <behaviors>
+                <behavior-type name="LiteTween2" sid="5603449128224931">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="expandingBacks" plugin-id="TiledBg" sid="6235313969900063">
+            <members>
+                <member>TiledBackground7</member>
+                <member>TiledBackground8</member>
+                <member>TiledBackground9</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>LoaderLayout.xml</layout>
+        <layout>HudLayout.xml</layout>
+        <layout>Layout 1.xml</layout>
+        <layout>AudioPage.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>LoaderEvent.xml</event-sheet>
+        <event-sheet>HudEvent.xml</event-sheet>
+        <event-sheet>ConfigurationsEvent.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>AudioPageEvent.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="LocalStorage" uid="1" />
+        <global-instance type="Function" uid="2" />
+        <global-instance type="Touch" uid="3">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="4">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="23" />
+        <global-instance type="TouchWrap" uid="22">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+                <enable>Yes</enable>
+            </properties>
+        </global-instance>
+        <global-instance type="UIDToProperties" uid="254" />
+        <global-instance type="Mouse" uid="0" />
+    </global-instances>
+    <sounds-folder>
+        <file name="gameover.m4a" />
+        <file name="gameover.ogg" />
+        <file name="shot.m4a" />
+        <file name="shot.ogg" />
+        <file name="1.m4a" />
+        <file name="1.ogg" />
+        <file name="2.m4a" />
+        <file name="2.ogg" />
+        <file name="3.m4a" />
+        <file name="3.ogg" />
+        <file name="4.m4a" />
+        <file name="4.ogg" />
+        <file name="posthit.m4a" />
+        <file name="posthit.ogg" />
+        <file name="fans_stadium_loop.m4a" />
+        <file name="fans_stadium_loop.ogg" />
+        <file name="ballinnet.m4a" />
+        <file name="ballinnet.ogg" />
+        <file name="ballshot.m4a" />
+        <file name="ballshot.ogg" />
+        <file name="fallenimgrass.m4a" />
+        <file name="fallenimgrass.ogg" />
+        <file name="goal_fans.m4a" />
+        <file name="goal_fans.ogg" />
+        <file name="ball_near_missed.m4a" />
+        <file name="ball_near_missed.ogg" />
+        <file name="game_over_whistle.m4a" />
+        <file name="game_over_whistle.ogg" />
+        <file name="tourney_back_music.m4a" />
+        <file name="tourney_back_music.ogg" />
+        <file name="body_impact1.m4a" />
+        <file name="body_impact1.ogg" />
+        <file name="body_impact2.m4a" />
+        <file name="body_impact2.ogg" />
+        <file name="crowd_celebrate.m4a" />
+        <file name="crowd_celebrate.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
