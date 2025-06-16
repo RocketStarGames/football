@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">LoaderLayout</layout>
+        <layout order="4">AudioPage</layout>
+        <layout active="1" order="6">Layout 1</layout>
+        <event-sheet order="1">HudEvent</event-sheet>
+        <event-sheet order="2">Event sheet 1</event-sheet>
+        <event-sheet order="3">AudioPageEvent</event-sheet>
+        <event-sheet order="5">ConfigurationsEvent</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="hud_icons" />
+        <family expanded="0" name="goalfam" />
+        <family expanded="0" name="expandingBacks" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/mainlogo/" />
+        <folder expanded="1" path="animation-folder/HUD_share_twitter/" />
+        <folder expanded="1" path="animation-folder/HUD_share_facebook/" />
+        <folder expanded="1" path="animation-folder/HUD_silent/" />
+        <folder expanded="1" path="animation-folder/ScoreItem/" />
+        <folder expanded="1" path="animation-folder/HUD_menu/" />
+        <folder expanded="1" path="animation-folder/HUD_restart/" />
+        <folder expanded="1" path="animation-folder/enemy/" />
+        <folder expanded="1" path="animation-folder/player/" />
+        <folder expanded="1" path="animation-folder/camera/" />
+        <folder expanded="1" path="animation-folder/speedpowerbar/" />
+        <folder expanded="1" path="animation-folder/tut_hand/" />
+        <folder expanded="1" path="animation-folder/Goal/" />
+        <folder expanded="1" path="animation-folder/ball/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/touchdown/" />
+        <folder expanded="1" path="animation-folder/point/" />
+        <folder expanded="1" path="animation-folder/player_animation/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/konfetti/" />
+        <folder expanded="1" path="animation-folder/please_rotate/" />
+        <folder expanded="1" path="animation-folder/coin/" />
+        <folder expanded="1" path="animation-folder/HUD_resume/" />
+        <folder expanded="1" path="animation-folder/HUD_Coins/" />
+        <folder expanded="1" path="animation-folder/grass_effect/" />
+        <folder expanded="1" path="animation-folder/hud_tackles/" />
+        <folder expanded="1" path="animation-folder/HUD_home/" />
+        <folder expanded="1" path="animation-folder/HUD_silent2/" />
+        <folder expanded="1" path="animation-folder/cursor/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/hud_gameover/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/shoulder_hitbox/" />
+        <folder expanded="1" path="animation-folder/helmet/" />
+    </folders-expanded>
+</c2uistate>
