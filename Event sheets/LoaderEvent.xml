@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LoaderEvent</name>
+    <events>
+        <event-block sid="119658471087728">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7867634817454241" type="System" />
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="9283781439699176" type="loadingbar">
+                    <param id="0" name="Width">clamp (0, (loadingprogress * 303), 303)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8201666591778982">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="4612964864992452" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6511971902347739" type="System">
+                    <param id="0" name="Layout">AudioPage</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
